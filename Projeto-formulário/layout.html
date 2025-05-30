@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina web</title>
+    <meta  charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=l">
+
+    <link href="imagens/Logotipo Marketing Colorido Rosa e Laranja.jpg" rel="icon" type="image/png">
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background: #f1f1f1;
+         }
+
+        header { 
+            text-align: center;
+            background-color: rgb(233, 12, 134);
+            padding: 30px;
+        }
+
+        header h1{
+            font-size: 50px;
+            color: white;
+        }
+
+        nav ul{
+            list-style-type: none;
+            background: rgb(55, 61, 181);
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            padding: 16px;
+            display: block;
+        }
+
+        nav li{
+            float: left;
+        }
+
+        nav a:hover{
+            background-color: white;
+            color:rgb(55, 61, 181);
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .row{
+            padding: 0 20px;
+            display: table;
+        }
+
+        section {
+            float: left;
+            width: 75%;
+        }
+
+        aside{
+            float: left;
+            width: 25%;
+            padding-left: 20px;
+          
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer {
+            padding: 20px;
+            background: rgb(55, 61, 181);
+            color: white;
+            margin-top: 20px;
+            display: table;
+            width: 100%;
+        }
+
+        footer dl, footer p {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        footer dt{
+            font-weight: bold;
+        }
+
+        footer dd{
+            margin-left: 0;
+        }
+
+        footer p{
+            text-align: right;
+            font-weight: bold;
+            font-size: 25px;
+
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <h1>Site web teste</h1>
+   </header>
+   <nav>
+     <ul>
+        <li><a href="#">Inicial</a></li>
+        <li><a href="Sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="https://trello.com/b/OhFhYN9G/projeto-cinema-cinemilani?utm_source=eval-email&utm_medium=email&utm_campaign=board-invite" target="_blank">Trabalho de FAS</a></li>
+     </ul>
+   </nav>
+   <div class="row">
+            <section>
+                <article class="card">
+                    <h2>Site web teste</h2>
+                    <h5>Site web teste</h5>
+                     <img src="imagens/html-css-javascript.jpg" 
+                     alt="Capa das linguagens usadas">
+                     <p>Sobre o site:</p>
+                    <p>
+                         Aqui usei um pouco de HTML, CSS e JAVASCRIPT.
+                    </p>
+                 </article>
+                <article class="card">
+                     <h2>Site web teste</h2>
+                     <h5>Tags usadas:</h5>
+                     <img src="imagens/download.jpg" alt="Tags usadas">
+                    <p>Sobre o Site:</p>
+                    <p>
+                          essas são as TAGS usadas.
+                      </p>
+                </article>
+            </section>
+             <aside>
+                 <article class="card">
+                    <h3>Post mais visto</h3>
+                    <img src="imagens/Tecnologia em analise e desenvolvimento de sistemas tudo sobre a graduacao.jpg" alt="Capa do post">
+                    <p>
+                        Post de como é a programação de sistemas em HTML 
+                    </p>
+
+                 </article>
+                 <article class="card"> 
+                    <h3>Sugundo post</h3>
+                     <img src="imagens/images.jpg" alt="Método Scrum">
+                     <p>imagem de como é as reuniões Scrum</p>
+
+                 </article>
+            </aside>
+    </div>
+   <footer>
+    <dl>
+        <dt>E-mail</dt>
+         <dd>email@gmail.com</dd>
+         <br/>
+        <dt>Telefone</dt>
+        <dd>(69) 9 9999-9999</dd>
+    </dl>
+
+    <p>Pedro Lucas</p>
+   </footer>
+</body>
+</html>
